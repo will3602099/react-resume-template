@@ -1,9 +1,17 @@
-import { DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import {
+  DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon
+} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
-import { FC, memo } from 'react';
+import {
+  FC, memo
+} from 'react';
 
-import { contact, SectionId } from '../../../data/data';
-import { ContactType, ContactValue } from '../../../data/dataDef';
+import {
+  contact, SectionId
+} from '../../../data/data';
+import {
+  ContactType, ContactValue
+} from '../../../data/dataDef';
 import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
