@@ -1,8 +1,7 @@
-import {BoltIcon, ChevronUpIcon} from '@heroicons/react/24/solid';
-import {FC, memo} from 'react';
+import { ChevronUpIcon } from '@heroicons/react/24/solid';
+import { FC, memo } from 'react';
 
-import {SectionId} from '../../data/data';
-import Socials from '../Socials';
+import { SectionId } from '../../data/data';
 
 const currentYear = new Date().getFullYear();
 
@@ -16,10 +15,10 @@ const Footer: FC = memo(() => (
       </a>
     </div>
     <div className="flex flex-col items-center gap-y-6">
-      <div className="flex gap-x-4 text-neutral-500">
+      {/* <div className="flex gap-x-4 text-neutral-500">
         <Socials />
-      </div>
-      <a
+      </div> */}
+      {/* <a
         className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
         href="https://reactresume.com">
         <BoltIcon className="h-5 w-5 text-yellow" />
@@ -27,8 +26,8 @@ const Footer: FC = memo(() => (
           Provided by <span className="text-white">React</span>
           <span className="italic text-yellow">Resume</span>
         </span>
-      </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
+      </a> */}
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Will Li </span>
     </div>
   </div>
 ));

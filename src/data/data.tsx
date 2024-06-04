@@ -1,11 +1,9 @@
 import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
+  AcademicCapIcon, BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
   MapIcon,
-  SparklesIcon,
+  SparklesIcon
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -15,6 +13,8 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -23,10 +23,8 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import profilepic from '../images/willprofilepic.jpg';
 import {
   About,
   ContactSection,
@@ -37,15 +35,15 @@ import {
   SkillGroup,
   Social,
   TestimonialSection,
-  TimelineItem,
+  TimelineItem
 } from './dataDef';
 
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: "Will's Resume",
+  description: "Resume site built with Will Li's React project",
 };
 
 /**
@@ -69,28 +67,26 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Will Li.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a <strong className="text-stone-100">Backend Software Engineer</strong> with more than five years of experience in internet industry. I am currently working at <strong className="text-stone-100">Temu</strong> which is a e-commerce company.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
+      </p> */}
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
+    // {
+    //   href: '/assets/resume.pdf',
+    //   text: 'Resume',
+    //   primary: true,
+    //   Icon: ArrowDownTrayIcon,
+    // },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -104,16 +100,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `A Senior Software Engineer with almost five years of experience in internet industry, specializing in designing and developing Microservice Which is high concurrency, high availability and high performance. A proven track record of being responsible for designing and developing Microservice systems from scratch. Good at using Agile management to improve software development lifecycle. Strong attention to detail, accuracy and time management. Interested in exploring new ideas and have a passion to make them happen.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Shanghai', Icon: MapIcon},
+    {label: 'Work start year', text: '2019', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'China', Icon: FlagIcon},
+    {label: 'Interests', text: 'Basketball, PUBG', Icon: SparklesIcon},
+    {label: 'Study', text: 'Tongji University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'PDD Holdings Inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,33 +119,29 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Chinese',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+        name: 'English',
+        level: 7,
+      }
     ],
   },
   {
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
         name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'React',
+        level: 4,
+      },
+      {
+        name: 'Next.js',
+        level: 4,
       },
     ],
   },
@@ -159,33 +149,41 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Java',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 7,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'C#',
+        level: 6,
+      },
+      {
+        name: 'C++',
+        level: 6,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Middleware',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'MySQL',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'NoSQL',
+        level: 7,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Cache',
+        level: 7,
+      },
+      {
+        name: 'MQ',
+        level: 7,
       },
     ],
   },
@@ -268,42 +266,69 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: ' Match 2019',
+    location: 'Tongji University',
+    title: 'Master of Software Engineering',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2015',
+    location: 'Nanjing Institute of Technology',
+    title: 'Bachelor of Vehicle Engineering',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'January 2023 - Present',
+    location: 'Temu',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Be responsible for designing and developing many promotion backend microservice systems from scratch.
+        Worked with product managers to provide an immersive shopping experience.
+        Managed the daily scheduling of business requirements, technology evolution.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'June 2020 - January 2023',
+    location: 'PDD',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Maintained and enhanced the e-commerce activity system, including performance, optimization, reconstruction. 
+        Supported million-lever qps, handling all kinds of high concurrency scenes, such as 618 Shooping Festival, Double Eleven Day. 
+        Understand business requirements and communitated with team leader to make technical desicions.
       </p>
     ),
   },
+  {
+    date: 'July 2019 - October 2020',
+    location: 'Trip.com',
+    title: 'Software Engineer',
+    content: (
+      <p>
+        Maintained the booking engine system for international air ticket. 
+        Converted booking engine systems from C# to Java and TypeScript. 
+        Migrated the database of booking engine systems from SQLSever to MySQL within schedule and budget constraints.
+      </p>
+    ),
+  },
+  {
+    date: 'Match 2018 - December 2018',
+    location: 'General Electric',
+    title: 'C++ Software Engineer Intern',
+    content: (
+      <p>
+        Participated in industry control software maintenance and development as a software engineer intern.
+      </p>
+    ),
+  },
+  
+
+
 ];
 
 /**
