@@ -7,14 +7,14 @@ import {
 } from '@heroicons/react/24/outline';
 
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/11111.png';
 import porfolioImage2 from '../images/portfolio/22222.png';
 import porfolioImage3 from '../images/portfolio/33333.jpg';
 import porfolioImage4 from '../images/portfolio/44444.jpg';
-import porfolioImage5 from '../images/portfolio/55555.jpg';
-import porfolioImage6 from '../images/portfolio/66666.jpg';
-import porfolioImage7 from '../images/portfolio/77777.jpg';
 import porfolioImage8 from '../images/portfolio/88888.jpg';
+import porfolioImage5 from '../images/portfolio/Temu活动.jpg';
+import porfolioImage6 from '../images/portfolio/拼多多主站.jpg';
+import porfolioImage7 from '../images/portfolio/携程.jpg';
+import porfolioImage1 from '../images/portfolio/短视频.jpg';
 
 import testimonialImage from '../images/testimonial.webp';
 import profilepic from '../images/willprofilepic.jpg';
@@ -197,12 +197,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Temu User Profiling project',
-    description: 'User Profiling System, is a technology used in marketing and analytics to create detailed profiles of individual users or customer segments. It involves collecting and analyzing data such as demographics, behavior patterns, preferences, and interactions with a product or service to understand and predict user behavior. This information helps businesses tailor their marketing strategies, personalized recommendations, and product offerings to meet the specific needs and interests of their target audience.',
-    url: 'https://www.temu.com/',
-    image: porfolioImage3,
-  },
-  {
     title: 'Temu Homepage project',
     description: 'The e-commerce homepage system refers to the main landing page of an online store or website dedicated to selling products or services. It is the first page that users see when they visit the website and typically showcases featured products, promotions, and navigation options to guide visitors to different sections of the online store. The design and layout of the e-commerce homepage system play a crucial role in attracting and engaging customers, ultimately leading to successful sales conversions.',
     url: 'https://www.temu.com/',
@@ -225,6 +219,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'A Booking Engine System is a software application used by businesses in the hospitality and travel industry to manage and facilitate online reservations and bookings. This system allows customers to search for available services, such as hotel rooms, flights, rental cars, or activities, and make reservations directly through the company\'s website or app. The Booking Engine System streamlines the booking process, provides real-time availability information, and automates reservation confirmations, payments, and other related tasks to enhance the customer booking experience.',
     url: 'https://flights.ctrip.com',
     image: porfolioImage7,
+  },
+  {
+    title: 'Temu User Profiling project',
+    description: 'User Profiling System, is a technology used in marketing and analytics to create detailed profiles of individual users or customer segments. It involves collecting and analyzing data such as demographics, behavior patterns, preferences, and interactions with a product or service to understand and predict user behavior. This information helps businesses tailor their marketing strategies, personalized recommendations, and product offerings to meet the specific needs and interests of their target audience.',
+    url: 'https://www.temu.com/',
+    image: porfolioImage3,
   },
   {
     title: 'GE Valve Industry Control software',
@@ -263,15 +263,15 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: ' Match 2019',
-    location: 'Tongji University',
-    title: 'Master of Software Engineering',
+    date: 'September 2016 - Match 2019',
+    location: 'Master of Software Engineering',
+    title: 'Tongji University',
     content: <p></p>,
   },
   {
-    date: 'June 2015',
-    location: 'Nanjing Institute of Technology',
-    title: 'Bachelor of Vehicle Engineering',
+    date: 'September 2011 - June 2015',
+    location: 'Bachelor of Vehicle Engineering',
+    title: 'Nanjing Institute of Technology',
     content: <p></p>,
   },
 ];
@@ -279,8 +279,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'January 2022 - Present',
-    location: 'Temu',
-    title: 'Senior Software Engineer',
+    title: 'Temu',
+    location: 'Senior Software Engineer',
     content: (
       <p>
         Be responsible for designing and developing some promotion and user growth backend microservice systems from scratch.
@@ -291,8 +291,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'June 2020 - January 2022',
-    location: 'PDD',
-    title: 'Software Engineer',
+    title: 'PDD',
+    location: 'Software Engineer',
     content: (
       <p>
         Maintained and enhanced the e-commerce activity system, including performance, optimization, reconstruction. 
@@ -303,8 +303,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'July 2019 - October 2020',
-    location: 'Trip.com',
-    title: 'Software Engineer',
+    title: 'Trip.com',
+    location: 'Software Engineer',
     content: (
       <p>
         Maintained the booking engine system for international air ticket. 
@@ -315,8 +315,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'Match 2018 - December 2018',
-    location: 'General Electric',
-    title: 'C++ Software Engineer Intern',
+    title: 'General Electric',
+    location: 'C++ Software Engineer Intern',
     content: (
       <p>
         Participated in industry control software maintenance and development as a software engineer intern.
@@ -335,19 +335,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Shuang Liang',
+      text: 'Will is a dedicated and talented Software Engineering student with a strong grasp of programming languages and problem-solving skills. His enthusiasm for learning and innovative approach to software development make them a valuable asset to any team.',
+      // image: porfolioImage2,
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      text: 'Will is an exceptional software development engineer with a strong technical acumen and a passion for innovation. His dedication to quality code, problem-solving skills, and collaborative spirit have significantly contributed to the success of our projects. I highly recommend Will for his outstanding contributions to software engineering and his commitment to excellence in their work.',
+      //image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Jixi',
+      text: 'I have had the privilege of collaborating with Will on multiple projects, and I am continually impressed by his technical expertise and creativity. His passion for coding and ability to think outside the box have resulted in innovative solutions that have positively impacted our projects. I wholeheartedly endorse Will for their outstanding contributions to software development.',
+      //image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
 };
@@ -358,8 +358,13 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to contact me through following ways. I look forward to hearing from you!',
   items: [
+    {
+      type: ContactType.WeChat,
+      text: 'WeChat: will3602099',
+      // href: 'https://maps.app.goo.gl/V6hq2wJZ6Li3PRSQ8',
+    },
     {
       type: ContactType.Email,
       text: 'will3602099@gmail.com',
@@ -370,11 +375,7 @@ export const contact: ContactSection = {
       text: 'Changning District Shanghai China',
       href: 'https://maps.app.goo.gl/V6hq2wJZ6Li3PRSQ8',
     },
-    {
-      type: ContactType.WeChat,
-      text: 'liguangwei794887',
-      // href: 'https://maps.app.goo.gl/V6hq2wJZ6Li3PRSQ8',
-    },
+    
     
     
     // {

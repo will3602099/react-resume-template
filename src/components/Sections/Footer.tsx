@@ -1,12 +1,12 @@
 import {
-  ChevronUpIcon
+    ChevronUpIcon
 } from '@heroicons/react/24/solid';
 import {
-  FC, memo
+    FC, memo
 } from 'react';
 
 import {
-  SectionId
+    SectionId
 } from '../../data/data';
 
 const currentYear = new Date().getFullYear();
