@@ -33,7 +33,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: "Will's Resume",
+  title: "Will's Profile",
   description: "Resume site built with Will Li's React project",
 };
 
@@ -62,7 +62,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Backend Software Engineer</strong> with more than five years of experience in internet industry. I am currently working at <strong className="text-stone-100">Temu</strong> which is a e-commerce company.
+        I'm a <strong className="text-stone-100">Software Engineer</strong> with more over six years of experience in internet industry. Thank you for your attention.
       </p>
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -78,11 +78,11 @@ export const heroData: Hero = {
     //   primary: true,
     //   Icon: ArrowDownTrayIcon,
     // },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
+    // {
+    //   href: `#${SectionId.Contact}`,
+    //   text: 'Contact',
+    //   primary: false,
+    // },
   ],
 };
 
@@ -91,14 +91,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `A Senior Software Engineer with almost five years of experience in internet industry, specializing in designing and developing Microservice Which is high concurrency, high availability and high performance. A proven track record of being responsible for designing and developing Microservice systems from scratch. Good at using Agile management to improve software development lifecycle. Strong attention to detail, accuracy and time management. Interested in exploring new ideas and have a passion to make them happen.`,
+  description: `Backend Engineer with 6+ years of specialized experience in internet technologies, particularly focused on e-commerce marketing and growth solutions. Expertise in architecting and implementing high-concurrency, highly available microservice systems that deliver exceptional performance. Demonstrated success in leading end-to-end microservice architecture design and implementation from initial concept to production deployment. Adept at applying Agile methodologies to streamline development processes and enhance software delivery efficiency. Committed to addressing complex technical challenges and enhancing user experiences through robust, scalable solutions.`,
   aboutItems: [
     {label: 'Location', text: 'Shanghai', Icon: MapIcon},
-    {label: 'Work start year', text: '2019', Icon: CalendarIcon},
     {label: 'Nationality', text: 'China', Icon: FlagIcon},
-    {label: 'Interests', text: 'Basketball, PUBG', Icon: SparklesIcon},
+    {label: 'Work start year', text: '2019', Icon: CalendarIcon},
+    {label: 'Employments', text: '[Temu, Trip]', Icon: BuildingOffice2Icon},
     {label: 'Study', text: 'Tongji University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'PDD Holdings Inc.', Icon: BuildingOffice2Icon},
+    {label: 'Interests', text: '[Basketball, Computer Game]', Icon: SparklesIcon},
   ],
 };
 
