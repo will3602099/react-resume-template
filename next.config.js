@@ -18,6 +18,7 @@ const nextConfig = {
   compress: true,
   generateEtags: true,
   unoptimized: true,
+  disableStaticImages: true,
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
