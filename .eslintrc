@@ -41,7 +41,6 @@
     "object-curly-spacing": "off",
     "react/jsx-curly-brace-presence": [2, "never"],
     "react/jsx-no-duplicate-props": "error",
-    "react/jsx-sort-props": "error",
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": "off",
     "simple-import-sort/exports": "error",
@@ -49,7 +48,8 @@
     "sort-imports": "off",
     "jsx-a11y/no-onchange": "off",
     "jsx-a11y/no-autofocus": "off",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "react/jsx-sort-props": "off"
   },
   "settings": {
     "react": {
