@@ -9,7 +9,6 @@ export default function PasswordGate({ children }: { children: React.ReactNode }
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [input, setInput] = useState("");
   const [error, setError] = useState("");
-  const router = useRouter();
 
   useEffect(() => {
     // 只在客户端检查认证状态
