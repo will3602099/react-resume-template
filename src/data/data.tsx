@@ -12,8 +12,8 @@ import porfolioImage4 from '../images/portfolio/44444.jpg';
 import porfolioImage8 from '../images/portfolio/88888.jpg';
 import porfolioImage7 from '../images/portfolio/ctrip.jpg';
 import porfolioImage6 from '../images/portfolio/pdd-activity.jpg';
-import porfolioImage1 from '../images/portfolio/short-video.jpg';
-import porfolioImage5 from '../images/portfolio/temu-activity.jpg';
+import porfolioImage1 from '../images/portfolio/short-video.jpeg';
+import porfolioImage5 from '../images/portfolio/temu-activity.jpeg';
 
 import testimonialImage from '../images/testimonial.webp';
 import profilepic from '../images/willprofilepic.jpg';
@@ -193,37 +193,37 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Temu Short Video project',
-    description: 'E-commerce short video system refers to a platform or system that integrates e-commerce functionalities with short video content. It allows users to create and share short videos showcasing products or services, with the option to directly purchase items featured in the videos. This system combines the engagement of short videos with the convenience of e-commerce shopping, creating a seamless shopping experience for users.',
+    description: 'Temu\'s short video system empowers merchants to create product videos through dynamic visual storytelling. For shoopers, it provides the instant "display-it, want-it, buy-it" purchasing capability.',
     url: 'https://www.temu.com/',
     image: porfolioImage1,
   },
   {
     title: 'Temu Planting Tree project',
-    description: 'The Planting Tree system is an environmental initiative within Temu, an online e-commerce platform. It encourages users to participate in eco-friendly activities such as planting trees and reducing carbon emissions. Users earn "water" by taking green actions in their daily lives, which can then be converted into real trees planted in designated areas. This system promotes sustainability and environmental awareness through gamification and social responsibility.',
+    description: 'The Planting Tree system is an environmental initiative by Temu. It encourages users to take part in virtual watering activities to plant a real trees.',
     url: 'https://www.temu.com/',
     image: porfolioImage2,
   },
   {
     title: 'Temu Homepage project',
-    description: 'The e-commerce homepage system refers to the main landing page of an online store or website dedicated to selling products or services. It is the first page that users see when they visit the website and typically showcases featured products, promotions, and navigation options to guide visitors to different sections of the online store. The design and layout of the e-commerce homepage system play a crucial role in attracting and engaging customers, ultimately leading to successful sales conversions.',
+    description: 'Temu\'s homepage system is the first page that users see when they visit the website and showcases featured products, promotions, dan navigation options to guide visitors to different sections of the online store.',
     url: 'https://www.temu.com/',
     image: porfolioImage4,
   },
   {
     title: 'Temu Activity project',
-    description: 'The e-commerce activity system refers to a platform or system that facilitates various promotional activities and campaigns within an online store or e-commerce website. This system allows businesses to create and manage marketing campaigns, discounts, sales events, and other promotional activities to attract customers, drive sales, and enhance the overall shopping experience. By utilizing the e-commerce activity system, businesses can effectively engage with customers, increase brand visibility, and boost sales through targeted marketing initiatives.',
+    description: 'Temu\'s activity system provides all kind of promotional activity, such as Flash Sale, Lighting deal, Black Friday, Cyber Monday. It offers a competitive price.',
     url: 'https://www.temu.com/',
     image: porfolioImage5,
   },
   {
     title: 'PDD Activity project',
-    description: 'The e-commerce activity system refers to a platform or system that facilitates various promotional activities and campaigns within an online store or e-commerce website. This system allows businesses to create and manage marketing campaigns, discounts, sales events, and other promotional activities to attract customers, drive sales, and enhance the overall shopping experience. By utilizing the e-commerce activity system, businesses can effectively engage with customers, increase brand visibility, and boost sales through targeted marketing initiatives.',
+    description: 'PDD\'s activity system provides all kind of promotional activity, such as 618 Shopping Festival, Double Eleven Day. It offers a competitive price.',
     url: 'https://m.pinduoduo.com/',
     image: porfolioImage6,
   },
   {
     title: 'Trip Air Ticket Booking Engine project',
-    description: 'A Booking Engine System is a software application used by businesses in the hospitality and travel industry to manage and facilitate online reservations and bookings. This system allows customers to search for available services, such as hotel rooms, flights, rental cars, or activities, and make reservations directly through the company\'s website or app. The Booking Engine System streamlines the booking process, provides real-time availability information, and automates reservation confirmations, payments, and other related tasks to enhance the customer booking experience.',
+    description: 'The Air Ticket Booking Engine System allows customers to book flights. This system provides real-time flight information and automates reservation confirmations, payments, and other related tasks to enhance the customer flight booking experience.',
     url: 'https://flights.ctrip.com',
     image: porfolioImage7,
   },
@@ -235,7 +235,7 @@ export const portfolioItems: PortfolioItem[] = [
   // },
   {
     title: 'GE Valve Industry Control software',
-    description: 'Industry control software, also known as industrial control software, is a type of software used in industrial automation and control systems to monitor and manage various processes within manufacturing plants, factories, and other industrial settings. This software is designed to control machinery, equipment, and production processes to ensure efficiency, safety, and consistency in industrial operations. Industry control software often includes features such as real-time monitoring, data collection, process optimization, and remote access capabilities to streamline industrial processes and improve overall productivity.',
+    description: 'Valve Control software is mainly to control the pipeline flow and monitor water flow in pipes.',
     url: 'https://www.ge.com/',
     image: porfolioImage8,
   },
