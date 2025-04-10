@@ -1,6 +1,5 @@
 'use client'; // 添加这行确保只在客户端运行
 
-import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 const PASSWORD = process.env.NEXT_PUBLIC_SITE_PASSWORD || "will2025";
