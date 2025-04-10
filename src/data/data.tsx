@@ -12,8 +12,8 @@ import porfolioImage4 from '../images/portfolio/44444.jpg';
 import porfolioImage8 from '../images/portfolio/88888.jpg';
 import porfolioImage7 from '../images/portfolio/ctrip.jpg';
 import porfolioImage6 from '../images/portfolio/pdd-activity.jpg';
-import porfolioImage1 from '../images/portfolio/short-video.jpeg';
-import porfolioImage5 from '../images/portfolio/temu-activity.jpeg';
+import porfolioImage1 from '../images/portfolio/short-video.jpg';
+import porfolioImage5 from '../images/portfolio/temu-activity.jpg';
 
 import testimonialImage from '../images/testimonial.webp';
 import profilepic from '../images/willprofilepic.jpg';
