@@ -8,7 +8,6 @@ import {
 
 import heroImage from '../images/header-background.webp';
 import porfolioImage2 from '../images/portfolio/22222.png';
-import porfolioImage3 from '../images/portfolio/33333.jpg';
 import porfolioImage4 from '../images/portfolio/44444.jpg';
 import porfolioImage8 from '../images/portfolio/88888.jpg';
 import porfolioImage7 from '../images/portfolio/ctrip.jpg';
@@ -62,8 +61,16 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Software Engineer</strong> with more over six years of experience in internet industry. Thank you for your attention.
+      The Backend Wizard Who Makes Servers Dance (Without Crashing During Black Friday).  
       </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      Thank you for your attention. If you'd like to learn more...
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      <strong className="text-stone-100">Keep scrolling to explore more.</strong>
+      </p>
+      
+      
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
@@ -211,7 +218,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'PDD Activity project',
     description: 'The e-commerce activity system refers to a platform or system that facilitates various promotional activities and campaigns within an online store or e-commerce website. This system allows businesses to create and manage marketing campaigns, discounts, sales events, and other promotional activities to attract customers, drive sales, and enhance the overall shopping experience. By utilizing the e-commerce activity system, businesses can effectively engage with customers, increase brand visibility, and boost sales through targeted marketing initiatives.',
-    url: 'https://www.temu.com/',
+    url: 'https://m.pinduoduo.com/',
     image: porfolioImage6,
   },
   {
@@ -220,16 +227,16 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://flights.ctrip.com',
     image: porfolioImage7,
   },
-  {
-    title: 'Temu User Profiling project',
-    description: 'User Profiling System, is a technology used in marketing and analytics to create detailed profiles of individual users or customer segments. It involves collecting and analyzing data such as demographics, behavior patterns, preferences, and interactions with a product or service to understand and predict user behavior. This information helps businesses tailor their marketing strategies, personalized recommendations, and product offerings to meet the specific needs and interests of their target audience.',
-    url: 'https://www.temu.com/',
-    image: porfolioImage3,
-  },
+  // {
+  //   title: 'Temu User Profiling project',
+  //   description: 'User Profiling System, is a technology used in marketing and analytics to create detailed profiles of individual users or customer segments. It involves collecting and analyzing data such as demographics, behavior patterns, preferences, and interactions with a product or service to understand and predict user behavior. This information helps businesses tailor their marketing strategies, personalized recommendations, and product offerings to meet the specific needs and interests of their target audience.',
+  //   url: 'https://www.temu.com/',
+  //   image: porfolioImage3,
+  // },
   {
     title: 'GE Valve Industry Control software',
     description: 'Industry control software, also known as industrial control software, is a type of software used in industrial automation and control systems to monitor and manage various processes within manufacturing plants, factories, and other industrial settings. This software is designed to control machinery, equipment, and production processes to ensure efficiency, safety, and consistency in industrial operations. Industry control software often includes features such as real-time monitoring, data collection, process optimization, and remote access capabilities to streamline industrial processes and improve overall productivity.',
-    url: 'https://www.gevernova.com/',
+    url: 'https://www.ge.com/',
     image: porfolioImage8,
   },
   // {
@@ -278,27 +285,38 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2022 - Present',
-    title: 'Temu',
+    date: 'May 2024 - Present',
+    title: 'Temu : C-End Growth Business',
     location: 'Senior Software Engineer',
     content: (
-      <p>
-        Be responsible for designing and developing some promotion and user growth backend microservice systems from scratch.
-        Worked with product managers to provide an immersive shopping experience.
-        Managed the daily scheduling of business requirements, technology evolution.
-      </p>
+      <div>
+        <p>• Designed and developed the growth's core products, like Plant Tree & Points & Short Video.</p>
+        <p>• Maintained the steady growth of GMV and ROI.</p>
+        <p>• Be responsible for developing and maintaining the cornerstone services for growth.</p>
+      </div>
     ),
   },
   {
-    date: 'June 2020 - January 2022',
-    title: 'PDD',
+    date: 'May 2022 - April 2024',
+    title: 'Temu : Marketing Business',
     location: 'Software Engineer',
     content: (
-      <p>
-        Maintained and enhanced the e-commerce activity system, including performance, optimization, reconstruction. 
-        Supported million-lever qps, handling all kinds of high concurrency scenes, such as 618 Shooping Festival, Double Eleven Day. 
-        Understand business requirements and communitated with team leader to make technical desicions.
-      </p>
+      <div>
+        <p>• Developed several core marketing products from scratch: activity system and homepage system</p>
+        <p>• Managed the daily scheduling of business requirements, technology evolution.</p>
+        <p>• Handled various high-QPS and high-concurrency scenes, such as Super Bowl Time, Black Friday.</p>
+      </div>
+    ),
+  },
+  {
+    date: 'November 2020 - April 2022',
+    title: 'PDD : Marketing Business',
+    location: 'Software Engineer',
+    content: (
+      <div>
+        <p>• Participated in developing and maintaining this system.</p>
+        <p>• Handled various big promotions, such as 618 Shopping Festival, Double Eleven Day.</p>
+      </div>
     ),
   },
   {
@@ -306,11 +324,11 @@ export const experience: TimelineItem[] = [
     title: 'Trip.com',
     location: 'Software Engineer',
     content: (
-      <p>
-        Maintained the booking engine system for international air ticket. 
-        Converted booking engine systems from C# to Java and TypeScript. 
-        Migrated the database of booking engine systems from SQLSever to MySQL within schedule and budget constraints.
-      </p>
+      <div>
+        <p>• Maintained the booking engine system for international air ticket.</p>
+        <p>• Converted booking engine systems from C# to Java and TypeScript.</p>
+        <p>• Migrated the database from SQLSever to MySQL within schedule and budget constraints.</p>
+      </div>
     ),
   },
   {
@@ -319,7 +337,7 @@ export const experience: TimelineItem[] = [
     location: 'C++ Software Engineer Intern',
     content: (
       <p>
-        Participated in industry control software maintenance and development as a software engineer intern.
+        • Participated in industry control software maintenance and development as a software engineer intern.
       </p>
     ),
   },
@@ -367,7 +385,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Email,
-      text: 'will3602099@gmail.com',
+      text: 'iliguangwei@sina.com',
       // href: 'will3602099@gmail.com',
     },
     {
