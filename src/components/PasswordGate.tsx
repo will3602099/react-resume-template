@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 const PASSWORD = process.env.NEXT_PUBLIC_SITE_PASSWORD || "will2025";
 
 export default function PasswordGate({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
+  
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [input, setInput] = useState("");
   const [error, setError] = useState("");
