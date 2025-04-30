@@ -385,7 +385,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Email,
-      text: 'iliguangwei@sina.com',
+      text: 'will3602099@gmail.com',
       // href: 'will3602099@gmail.com',
     },
     {
